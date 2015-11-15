@@ -1,18 +1,17 @@
  <ul id="slide-out" class="side-nav">
-         <li><a href="#!">First Sidebar Link</a></li>
-         <li><a href="#!">Second Sidebar Link</a></li>
-         <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-            <a data-activates="slide-out" class="mail btn-floating btn-large red close_mail   ">
-            <i class="material-icons center">done</i>
-            </a>
-         </div>
+     <li> <a class="modal-trigger" href="#modal1"><img class="circle right profil_home" src="images/spidey.png"></a></li>
+         <li><a href="#!">Profil</a></li>
+         <li><a href="#!">Messagerie</a></li>
+         <li><a href="#!">Vendre</a></li>
+         <li><a href="#!">Déconnexion</a></li>
+            
       </ul>
-      <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+   <!--   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
          <a data-activates="slide-out" class="mail btn-floating btn-large red">
          <i class="material-icons">email</i>
          </a>
       </div>
-      <footer class="page-footer red accent-2">
+      --><footer class="page-footer red accent-2">
          <div class="container">
             <div class="row">
                <div class="col l6 s12">
@@ -51,8 +50,8 @@
          });
          
           $('.mail').sideNav({
-          menuWidth: 300, // Default is 240
-          edge: 'right', // Choose the horizontal origin
+          menuWidth: 240, // Default is 240
+          edge: 'left', // Choose the horizontal origin
          }
          );
           

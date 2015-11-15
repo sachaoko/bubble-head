@@ -13,13 +13,19 @@
       <div class="navbar-fixed">
          <nav class=" red accent-4" role="navigation">
             <div class="nav-wrapper container">
-               <a id="logo-container" href="#" class="brand-logo">BUBBLE HEAD</a>
+               <!--<a id="logo-container" href="#" class="brand-logo">BUBBLE HEAD</a>
                <a class="modal-trigger" href="#modal1"><img class="circle right profil_home" src="images/spidey.png"></img></a>
                <ul id="nav-mobile" class="side-nav">
                   <li><a href="#">Navbar Link</a></li>
                </ul>
                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-            </div>
+-->          
+                <a href="#" class="brand-logo right">Bubble Head</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a data-activates="slide-out" class="mail"><i class="mdi-navigation-menu"></i></a></li>
+      
+      </ul>  
+             </div>
          </nav>
       </div>
       <!-- Modal Trigger -->
