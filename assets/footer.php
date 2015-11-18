@@ -4,7 +4,7 @@
          <li><a href="#!">Messagerie</a></li>
          <li><a href="#!">Vendre</a></li>
          <li><a href="#!">Déconnexion</a></li>
-<img style="width:100%"src="http://sacha-oko.com/bubble-head/logo/logo2.png">
+<img style="width:100%"src="logo/logo2.png">
 
       </ul>
    <!--   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
@@ -61,6 +61,17 @@
          $('.modal-trigger').leanModal();
          });
          
-      </script>
+          
+          
+          
+           
+    
+    
+    
+    $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });</script>
+      
    </body>
 </html> 
