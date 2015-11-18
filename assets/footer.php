@@ -1,17 +1,18 @@
  <ul id="slide-out" class="side-nav">
      <li> <a class="modal-trigger" href="#modal1"><img class="circle right profil_home" src="images/spidey.png"></a></li>
-         <li><a href="#!">Profil</a></li>
+         <li><a href="profil.php">Profil</a></li>
          <li><a href="#!">Messagerie</a></li>
          <li><a href="#!">Vendre</a></li>
          <li><a href="#!">Déconnexion</a></li>
-            
+<img style="width:100%"src="http://sacha-oko.com/bubble-head/logo/logo2.png">
+
       </ul>
    <!--   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
          <a data-activates="slide-out" class="mail btn-floating btn-large red">
          <i class="material-icons">email</i>
          </a>
       </div>
-      --><footer class="page-footer red accent-2">
+      --><footer class="page-footer red ">
          <div class="container">
             <div class="row">
                <div class="col l6 s12">
@@ -32,7 +33,7 @@
          <div class="footer-copyright">
             <div class="container">
                © 2014 Copyright Text
-               <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+               <a class="grey-text text-lighten-4 right" target="_blank" href="https://github.com/sachaoko/bubble-head">github</a>
             </div>
          </div>
       </footer>

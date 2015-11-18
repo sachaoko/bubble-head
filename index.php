@@ -4,7 +4,7 @@
 
       <div class="row">
         <div class="col s12 m12">
-          <div class="card card-home    red accent-4">
+          <div class="card card-home    red darken-1">
             <div class="card-content black-text">
               <span class="card-title black-text">Welcome</span>
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -12,7 +12,7 @@
             </div>
             <div class="card-action">
                <a class="modal-trigger" href="#modal1">Inscription</a>
-              <a href="#">connexion</a>
+              <a class="modal-trigger" href="#modal2">connexion</a>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
                   </div>
                </li>
             </ul>
-         </div> 
+         </div>     
     <div class="row">
             <div class="col s4  ">
                <div class="card">

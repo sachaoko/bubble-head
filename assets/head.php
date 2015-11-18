@@ -11,7 +11,7 @@
    </head>
    <body>
       <div class="navbar-fixed">
-         <nav class=" red accent-4" role="navigation">
+         <nav class="red accent-4" role="navigation">
             <div class="nav-wrapper container">
                <!--<a id="logo-container" href="#" class="brand-logo">BUBBLE HEAD</a>
                <a class="modal-trigger" href="#modal1"><img class="circle right profil_home" src="images/spidey.png"></img></a>
@@ -20,11 +20,14 @@
                </ul>
                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 -->          
-                <a href="#" class="brand-logo right">Bubble Head</a>
+                <a href="index.php" class="brand-logo center">Bubble Head</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li><a data-activates="slide-out" class="mail"><i class="mdi-navigation-menu"></i></a></li>
       
-      </ul>  
+      </ul> 
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+<li><a href="search.php"><i class="material-icons">search</i></a></li>      
+      </ul> 
              </div>
          </nav>
       </div>
@@ -63,3 +66,29 @@
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
          </div>
       </div>
+        <div id="modal2" class="modal modal-fixed-footer">
+         <div class="modal-content">
+              <div class="row">
+                     <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                     </div>
+                  </div>
+            <div class="row">
+               <form class="col s12">
+                
+                  <div class="row">
+                     <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                     </div>
+                  </div>
+                 
+               </form>
+            </div>
+         </div>
+         <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+         </div>
+      </div>   
+       
