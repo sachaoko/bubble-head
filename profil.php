@@ -9,18 +9,21 @@
                         <img src="images/batman.jpg" alt="" class="circle responsive-img">
                         <!-- notice the "circle" class -->
                     </div>
-                    <div class="col s5">
+                    <div class="col s3">
                         <span class="black-text">
                   <p><i class="small material-icons">perm_identity</i>Bruce Wayne</p>
             <p><i class="small material-icons">av_timer</i>Âge : 40 ans</p>
             <p><i class="small material-icons">business</i> Ville: Gotham</p>
               </span>
                     </div>
-
-                    <div class="col s5">
+                    <div class="col s4">
                         <span class="black-text">
-                            <h1>Bio : "I'm Batman"<h1>
+                            <h4>Bio : "I'm Batman"<h4   >
                               </span>
+                    </div>
+                    <div class="col s3">
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Wishlist</a>
+
                     </div>
                 </div>
             </div>
@@ -48,7 +51,44 @@
     </div>
 
 
+    <!-- Modal Trigger -->
+
+    <!-- Modal Structure -->
+    <div id="modal5" class="modal bottom-sheet">
+        <div class="modal-content">
+            <ul class="collection">
+
+                <li class="collection-item avatar">
+                    <i class="material-icons circle">folder</i>
+                    <span class="title">Title</span>
+                    <p>First Line
+                        <br> Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p>First Line
+                        <br> Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+                <li class="collection-item avatar">
+                    <i class="material-icons circle red">play_arrow</i>
+                    <span class="title">Title</span>
+                    <p>First Line
+                        <br> Second Line
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
     </div>
+
 
 
     <?php include("assets/footer.php"); ?>
