@@ -48,3 +48,7 @@
 .maxSize {
     max-height: 750px;
 }
+
+.slide1 {
+    left: 7%!important;
+}

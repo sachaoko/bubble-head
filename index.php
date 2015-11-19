@@ -1,6 +1,41 @@
 <?php include("assets/head.php"); ?>
     <div class="container">
 
+
+
+
+        <div class="slider card-home">
+            <ul class="slides">
+                <li>
+                    <img src="images/scott.jpg">
+                    <div class="caption slide1  left-align">
+                        <h3>Scott Pilgrim</h3>
+                        <h5 class="light grey-text text-lighten-3">Il revient en couleur</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/jpg.jpg">
+                    <div class="caption right-align">
+                        <h3>Le chat du rabin</h3>
+                        <h5 class="light grey-text text-lighten-3">Nouvelle BD de Joan Sfar</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/gally.jpeg">
+                    <div class="caption right-align">
+                        <h3>Gumn</h3>
+                        <h5 class="light grey-text text-lighten-3">Redécouvrir le manga Culte</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/cv.jpg">
+                    <div class="caption left-align">
+                        <h3>Hellboy in Hell</h3>
+                        <h5 class="light grey-text text-lighten-3">Nouvelle étape dans la vie de Hellboy</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <div class="row">
             <div class="col s6 m6">
                 <div class="card card-home red accent-4">
@@ -24,40 +59,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="slider">
-            <ul class="slides">
-                <li>
-                    <img src="images/cv.jpg">
-                    <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/jpg.jpg">
-                    <div class="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/gally.jpeg">
-                    <div class="caption right-align">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/scott.jpg">
-                    <div class="caption left-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>
-            </ul>
         </div>
         <div class="row">
             <div class="col s4  ">
